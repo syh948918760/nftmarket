@@ -1,0 +1,38 @@
+{
+  "name": "@verite/demo-verifier",
+  "license": "MIT",
+  "private": true,
+  "contributors": [
+    "Kim Hamilton Duffy (https://github.com/kimdhamilton)",
+    "Sean Neville (https://github.com/psnevio)",
+    "Brice Stacey <brice@m2.xyz> (https://m2.xyz)",
+    "Matt Venables <matt@m2.xyz> (https://m2.xyz)"
+  ],
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "next lint",
+    "setup": "./bin/setup",
+    "start": "next start",
+    "ts-node": "ts-node --compiler-options \"{\\\"module\\\":\\\"commonjs\\\"}\"",
+    "type-check": "tsc --pretty --noEmit"
+  },
+  "dependencies": {
+    "ethers": "^5.4.4",
+    "jsonwebtoken": "^8.5.1",
+    "next": "^12.1.0",
+    "qrcode.react": "^1.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "uuid": "^8.3.2",
+    "verite": "*"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "internal-ip": "^6.2.0",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.17",
+    "tailwindcss-font-inter": "^3.0.1",
+    "ts-node": "^10.1.0"
+  }
+}
